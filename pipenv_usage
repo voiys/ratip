@@ -1,0 +1,37 @@
+voiys@dell:~/Desktop/ratip$ pipenv install numpy
+Creating a virtualenv for this project…
+Pipfile: /home/voiys/Desktop/ratip/Pipfile
+Using /usr/bin/python3 (3.6.7) to create virtualenv…
+⠏ Creating virtual environment...Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /home/voiys/.local/share/virtualenvs/ratip-V69krGfD/bin/python3
+Also creating executable in /home/voiys/.local/share/virtualenvs/ratip-V69krGfD/bin/python
+Installing setuptools, pip, wheel...
+done.
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /home/voiys/.local/share/virtualenvs/ratip-V69krGfD
+Creating a Pipfile for this project…
+Installing numpy…
+Adding numpy to Pipfile's [packages]…
+✔ Installation Succeeded 
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+✔ Success! 
+Updated Pipfile.lock (4fccdf)!
+Installing dependencies from Pipfile.lock (4fccdf)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 1/1 — 00:00:03
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+voiys@dell:~/Desktop/ratip$ pipenv shell
+Launching subshell in virtual environment…
+voiys@dell:~/Desktop/ratip$  . /home/voiys/.local/share/virtualenvs/ratip-V69krGfD/bin/activate
+(ratip) voiys@dell:~/Desktop/ratip$ python
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy
+>>> 
+(ratip) voiys@dell:~/Desktop/ratip$ 
+
